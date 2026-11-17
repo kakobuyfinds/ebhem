@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Browse real CAFANS listings in this ACBuy spreadsheet guide. Compare shoes, hoodies, tees and jackets by reference price, then check sizing, QC and shipping.">
+<title>ACBuy spreadsheet | CAFANS Product Picks &amp; Buying Guide</title>
+<style>
+:root{color-scheme:light;--ink:#142c22;--green:#125239;--line:#cbd8cb;--paper:#f5f7ef}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+main,footer{width:min(1080px,calc(100% - 32px));margin:auto}
+a{color:var(--green);text-underline-offset:.2em}
+.hero{text-align:center;padding:clamp(48px,9vw,110px) 16px;background:#163e2e;color:#fff}
+.hero h1{font-size:clamp(2.35rem,7vw,5rem);line-height:1.05;margin:0}
+.hero p{max-width:640px;margin:20px auto}
+.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.actions a{padding:10px 18px;border:1px solid #cde3ac;border-radius:8px;color:#fff;font-weight:700}
+.actions a:first-child{background:#cde3ac;color:#163e2e}
+section{padding:34px 0;border-bottom:1px solid var(--line)}
+h2{font-size:clamp(1.5rem,4vw,2.2rem);line-height:1.2;margin:0 0 12px}
+.filters{display:flex;flex-wrap:wrap;gap:14px;margin:20px 0}
+label{display:grid;gap:4px;font-weight:650}
+input,select{font:inherit;padding:8px;border:1px solid #809888;border-radius:6px;background:#fff;color:inherit;max-width:100%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,245px),1fr));gap:12px}
+.grid article{padding:16px;background:#fff;border:1px solid var(--line);border-radius:10px}
+.grid h3{font-size:1.05rem;margin:4px 0}
+.grid p{margin:4px 0}
+small{color:#456154}
+details{border-top:1px solid var(--line);padding:12px 0}
+summary{cursor:pointer;font-weight:700}
+footer{padding:20px 0}
+</style>
+<link rel="canonical" href="https://kakobuyfinds.github.io/ebhem/">
+</head>
+<body>
+<!-- Search review: https://acbuy.net/ emphasizes category shortcuts, https://ac-sheet.com/ emphasizes catalog breadth, and https://acbuy-spreadsheet.org/ offers search and QC guidance. This page combines direct CAFANS product links, filterable catalog entries and a checklist for comparing total costs. Exact Google first-page positions could not be verified. -->
+<!-- Indexing status: awaiting a public deployment URL. After publishing index.html, request indexing via URL Inspection in Google Search Console and URL Submission in Bing Webmaster Tools using the verified site properties. -->
+<header class="hero">
+  <h1>ACBuy spreadsheet</h1>
+  <p>Browse a selection from the CAFANS catalog, compare reference prices and check what to verify before placing an agent order.</p>
+  <div class="actions">
+    <a href="https://cafans.com">ACBuy spreadsheet</a>
+    <a href="https://cafans.com">Buy it now</a>
+  </div>
+</header>
+<main>
+  <section aria-labelledby="catalog">
+    <h2 id="catalog">CAFANS product directory</h2>
+    <p>Prices are USD estimates from the <a href="https://cafans.com/">CAFANS featured catalog</a>. Open each listing to check current options and pricing. Shipping and fees are separate.</p>
+    <div class="filters" id="filters" hidden>
+      <label>Search products
+        <input id="query" type="search" placeholder="Name or listing ID" aria-controls="products">
+      </label>
+      <label>Category
+        <select id="category" aria-controls="products">
+          <option value="">All categories</option>
+          <option>Shoes</option>
+          <option>Hoodies and sweatshirts</option>
+          <option>T-shirts</option>
+          <option>Jackets</option>
+        </select>
+      </label>
+    </div>
+    <p id="count" role="status"></p>
+    <div class="grid" id="products">
+      <article data-category="Shoes">
+        <small>Shoes · 158791</small>
+        <h3><a href="https://cafans.com/goods-158791.html">Leather Slides</a></h3>
+        <p>≈ $62.36 USD</p>
+      </article>
+      <article data-category="Shoes">
+        <small>Shoes · 158790</small>
+        <h3><a href="https://cafans.com/goods-158790.html">Platform Slides</a></h3>
+        <p>≈ $46.67 USD</p>
+      </article>
+      <article data-category="Hoodies and sweatshirts">
+        <small>Hoodies and sweatshirts · 158792</small>
+        <h3><a href="https://cafans.com/goods-158792.html">Sweatshirt</a></h3>
+        <p>≈ $27.50 USD</p>
+      </article>
+      <article data-category="T-shirts">
+        <small>T-shirts · 158200</small>
+        <h3><a href="https://cafans.com/goods-158200.html">Unisex Embroidered Oversized T-Shirt</a></h3>
+        <p>≈ $32.64 USD</p>
+      </article>
+      <article data-category="Jackets">
+        <small>Jackets · 158279</small>
+        <h3><a href="https://cafans.com/goods-158279.html">Corteiz Jacket</a></h3>
+        <p>≈ $42.78 USD</p>
+      </article>
+      <article data-category="Jackets">
+        <small>Jackets · 158158</small>
+        <h3><a href="https://cafans.com/goods-158158.html">Jacket - 0608260</a></h3>
+        <p>≈ $27.50 USD</p>
+      </article>
+    </div>
+  </section>
+  <section>
+    <h2>How to compare an ACBuy shortlist</h2>
+    <ol>
+      <li><strong>Save the exact item.</strong> Record the listing ID, seller URL, variant, quoted price and date. Compare shoe measurements in the same units and check chest and length measurements for tops.</li>
+      <li><strong>Confirm the buying route.</strong> Open the CAFANS listing and check the available agent options for that item. Confirm the source listing and selected size before paying.</li>
+      <li><strong>Review quality-control photos.</strong> If available, compare the label, color, visible stitching and any requested measurements with your saved variant. Check the return window before approving shipment.</li>
+      <li><strong>Compare total cost.</strong> Add the item price, domestic delivery, agent fees, international freight and any applicable import costs in one currency. When comparing shipping quotes, use the same packed dimensions, weight and destination.</li>
+    </ol>
+  </section>
+  <section>
+    <h2>Frequently asked questions</h2>
+    <details>
+      <summary>What is an ACBuy spreadsheet?</summary>
+      <p>It organizes product links and comparison details for shoppers researching an agent order. This edition shows CAFANS catalog picks with reference prices and direct listing links.</p>
+    </details>
+    <details>
+      <summary>Where do the two main buttons go?</summary>
+      <p>Both open the CAFANS homepage. The links in the directory open individual CAFANS product pages.</p>
+    </details>
+    <details>
+      <summary>Does the listed price include delivery?</summary>
+      <p>The directory shows estimated item prices. Check the agent quote for fees and shipping to your destination.</p>
+    </details>
+  </section>
+</main>
+<footer>Independent shopping guide. Product listings sourced from CAFANS.</footer>
+<script>
+const filters = document.getElementById('filters');
+const query = document.getElementById('query');
+const category = document.getElementById('category');
+const count = document.getElementById('count');
+const products = [...document.querySelectorAll('#products article')];
+
+function filterProducts() {
+  const terms = query.value.trim().toLowerCase().split(/\s+/);
+  let visible = 0;
+
+  for (const product of products) {
+    const searchableText = product.textContent.toLowerCase();
+    const matchesCategory = !category.value || product.dataset.category === category.value;
+    const matchesQuery = terms.every(term => searchableText.includes(term));
+    product.hidden = !(matchesCategory && matchesQuery);
+    visible += Number(!product.hidden);
+  }
+
+  count.textContent = visible
+    ? `${visible} of ${products.length} listings`
+    : 'No matching listings.';
+}
+
+query.addEventListener('input', filterProducts);
+category.addEventListener('change', filterProducts);
+filters.hidden = false;
+filterProducts();
+</script>
+</body>
+</html>
